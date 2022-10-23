@@ -22,13 +22,13 @@
 	<string>$(TeamIdentifierPrefix)$(CFBundleIdentifier)</string>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.org.linphone.phone.linphoneExtension</string>
-		<string>group.belledonne-communications.linphone.widget</string>
-		<string>group.org.linphone.phone.msgNotification</string>
+		<string>group.com.vsphone.phone.linphoneExtension</string>
+		<string>group.virtualsistemas.vsphone.widget</string>
+		<string>group.com.vsphone.phone.msgNotification</string>
 	</array>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)org.linphone.phone</string>
+		<string>$(AppIdentifierPrefix)com.vsphone.phone</string>
 	</array>
 </dict>
 </plist>

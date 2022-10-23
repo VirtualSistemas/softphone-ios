@@ -27,7 +27,7 @@
 #import "ShopView.h"
 #import "LinphoneManager.h"
 #import "RecordingsListView.h"
-#import "linphoneapp-Swift.h"
+#import "vsphoneapp-Swift.h"
 
 @implementation SideMenuEntry
 

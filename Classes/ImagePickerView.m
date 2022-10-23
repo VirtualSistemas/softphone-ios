@@ -22,7 +22,7 @@
 #import "PhoneMainView.h"
 #import "SVProgressHUD.h"
 #import "ShareViewController.h"
-#import "linphoneapp-Swift.h"
+#import "vsphoneapp-Swift.h"
 #import <UIKit/UIKit.h>
 
 

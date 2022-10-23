@@ -21,7 +21,7 @@
 #import "LinphoneManager.h"
 #import "PhoneMainView.h"
 #import <UserNotifications/UserNotifications.h>
-#import "linphoneapp-Swift.h"
+#import "vsphoneapp-Swift.h"
 
 @implementation StatusBarView {
 

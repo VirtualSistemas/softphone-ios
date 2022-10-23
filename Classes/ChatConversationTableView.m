@@ -24,7 +24,7 @@
 #import "UIChatBubblePhotoCell.h"
 #import "UIChatNotifiedEventCell.h"
 #import "PhoneMainView.h"
-#import "linphoneapp-Swift.h"
+#import "vsphoneapp-Swift.h"
 
 @implementation ChatConversationTableView
 

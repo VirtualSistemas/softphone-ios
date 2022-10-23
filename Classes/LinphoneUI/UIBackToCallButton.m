@@ -20,7 +20,7 @@
 #import "UIBackToCallButton.h"
 #import "LinphoneManager.h"
 #import "PhoneMainView.h"
-#import "linphoneapp-Swift.h"
+#import "vsphoneapp-Swift.h"
 
 
 @implementation UIBackToCallButton

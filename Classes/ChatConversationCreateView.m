@@ -20,7 +20,7 @@
 #import "ChatConversationCreateView.h"
 #import "PhoneMainView.h"
 #import "UIChatCreateCollectionViewCell.h"
-#import "linphoneapp-Swift.h"
+#import "vsphoneapp-Swift.h"
 
 @implementation ChatConversationCreateView
 

@@ -22,7 +22,7 @@
 #import "LinphoneAppDelegate.h"
 #import "Utils.h"
 #import "SideMenuView.h"
-#import "linphoneapp-Swift.h"
+#import "vsphoneapp-Swift.h"
 
 @implementation UICompositeViewDescription
 

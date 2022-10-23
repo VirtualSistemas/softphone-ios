@@ -18,7 +18,7 @@
  */
 
 #import "UIChatReplyBubbleView.h"
-#import "linphoneapp-Swift.h"
+#import "vsphoneapp-Swift.h"
 #import "Utils.h"
 
 @interface UIChatReplyBubbleView ()

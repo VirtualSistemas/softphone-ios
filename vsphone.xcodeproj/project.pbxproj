@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		152F22361B15E889008C0621 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 152F22351B15E889008C0621 /* libxml2.dylib */; };
+		1B5F377359D2CD707CB884F8 /* Pods_CallUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FEF6064A0DE09ED14DF3D0 /* Pods_CallUITests.framework */; };
 		1D3623260D0F684500981E51 /* LinphoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* LinphoneAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -50,7 +51,6 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		340751971506459A00B89C47 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 340751961506459A00B89C47 /* CoreTelephony.framework */; };
 		344ABDF114850AE9007420B6 /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 344ABDEF14850AE9007420B6 /* libc++.1.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
-		36C8883CF9CD21240125CC74 /* Pods_msgNotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943C756D8C523B63A9BA4022 /* Pods_msgNotificationService.framework */; };
 		570742581D5A0691004B9C84 /* ShopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 570742561D5A0691004B9C84 /* ShopView.xib */; };
 		570742611D5A09B8004B9C84 /* ShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5707425F1D5A09B8004B9C84 /* ShopView.m */; };
 		570742671D5A63DB004B9C84 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570742661D5A63DB004B9C84 /* StoreKit.framework */; };
@@ -98,7 +98,7 @@
 		6180D6FE21EE41A800AD9CB6 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6180D6FD21EE41A800AD9CB6 /* QuickLook.framework */; };
 		61AE364F20C00B370089D9D3 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AE364E20C00B370089D9D3 /* ShareViewController.m */; };
 		61AE365220C00B370089D9D3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61AE365020C00B370089D9D3 /* MainInterface.storyboard */; };
-		61AE365620C00B370089D9D3 /* linphoneExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 61AE364B20C00B370089D9D3 /* linphoneExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		61AE365620C00B370089D9D3 /* vsphoneExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 61AE364B20C00B370089D9D3 /* vsphoneExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		61AEBEBD2191990A00F35E7F /* DevicesListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AEBEBC2191990A00F35E7F /* DevicesListView.m */; };
 		61AEBEBF2191991F00F35E7F /* DevicesListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61AEBEBE2191991F00F35E7F /* DevicesListView.xib */; };
 		61AEBEC62191E47500F35E7F /* chevron_list_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 61AEBEC52191E47500F35E7F /* chevron_list_close.png */; };
@@ -604,7 +604,7 @@
 		63E27A321C4FECD000D332AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E27A311C4FECD000D332AE /* LaunchScreen.xib */; };
 		63E27A521C50EDB000D332AE /* hold.mkv in Resources */ = {isa = PBXBuildFile; fileRef = 63E27A511C50EB2700D332AE /* hold.mkv */; };
 		63E59A3F1ADE70D900646FB3 /* InAppProductsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E59A3E1ADE70D900646FB3 /* InAppProductsManager.m */; };
-		63E802DB1C625AEF000D5509 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		63E802DB1C625AEF000D5509 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		63EC8D391D7438660066547B /* AssistantLinkView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63EC8D3B1D7438660066547B /* AssistantLinkView.xib */; };
 		63F1DF441BCE618E00EDED90 /* UIAddressTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F1DF431BCE618E00EDED90 /* UIAddressTextField.m */; };
 		63FB30351A680E73008CA393 /* UIRoundedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FB30341A680E73008CA393 /* UIRoundedImageView.m */; };
@@ -626,6 +626,8 @@
 		66E399F82857869300E73456 /* menu_notifications_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E399F62857869200E73456 /* menu_notifications_on.png */; };
 		70E542F313E147E3002BA2C0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E542F213E147E3002BA2C0 /* OpenGLES.framework */; };
 		70E542F513E147EB002BA2C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E542F413E147EB002BA2C0 /* QuartzCore.framework */; };
+		771DC0B76313898790142731 /* Pods_vsphone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A827CB99225C68A78E9AA0A /* Pods_vsphone.framework */; };
+		77E6BCF817469261EA6D7445 /* Pods_msgNotificationContent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BE81E0196FC32A77768FB0 /* Pods_msgNotificationContent.framework */; };
 		8C2595DF1DEDCC8E007A6424 /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2595DE1DEDCC8E007A6424 /* CallKit.framework */; };
 		8C2A81951F87B8000012A66B /* chat_group_avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2A81931F87B7FF0012A66B /* chat_group_avatar@2x.png */; };
 		8C2A81961F87B8000012A66B /* chat_group_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2A81941F87B8000012A66B /* chat_group_avatar.png */; };
@@ -664,7 +666,7 @@
 		8CF25D961F9F336100BEA0C1 /* check_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF25D941F9F336100BEA0C1 /* check_unselected.png */; };
 		8CF25D9D1F9F76BD00BEA0C1 /* chat_group_informations.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF25D9B1F9F76BC00BEA0C1 /* chat_group_informations.png */; };
 		8CF25D9E1F9F76BD00BEA0C1 /* chat_group_informations@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF25D9C1F9F76BD00BEA0C1 /* chat_group_informations@2x.png */; };
-		AC76CCEFDCD59EB01C2DE3F8 /* Pods_msgNotificationContent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA35546364BBF65F0DF5E8F /* Pods_msgNotificationContent.framework */; };
+		A5E012F0CC692C17A699E3EA /* Pods_msgNotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3677BEBE1E19B82CA4C4371 /* Pods_msgNotificationService.framework */; };
 		C61B1BF22667D075001A4E4A /* menu_security_default.png in Resources */ = {isa = PBXBuildFile; fileRef = C61B1BF12667D075001A4E4A /* menu_security_default.png */; };
 		C61B1BF42667D202001A4E4A /* more_menu_default.png in Resources */ = {isa = PBXBuildFile; fileRef = C61B1BF32667D202001A4E4A /* more_menu_default.png */; };
 		C61B1BF72667EC6B001A4E4A /* ephemeral_messages_color_A.png in Resources */ = {isa = PBXBuildFile; fileRef = C61B1BF62667EC6B001A4E4A /* ephemeral_messages_color_A.png */; };
@@ -896,7 +898,6 @@
 		D3549816158761D0000081D8 /* ContactsListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3549815158761D0000081D8 /* ContactsListTableView.m */; };
 		D35498211587716B000081D8 /* StatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D354981F1587716B000081D8 /* StatusBarView.m */; };
 		D35860D615B549B500513429 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D35860D515B549B500513429 /* Utils.m */; };
-		D35C5F1B660753F3FF79848A /* Pods_CallUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49381ABF67DC815C5F299A43 /* Pods_CallUITests.framework */; };
 		D35E7597159460580066B1C1 /* ChatsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E7595159460560066B1C1 /* ChatsListView.m */; };
 		D35E759F159460B70066B1C1 /* SettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E759D159460B50066B1C1 /* SettingsView.m */; };
 		D378AB2A15DCDB4A0098505D /* ImagePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D378AB2915DCDB490098505D /* ImagePickerView.m */; };
@@ -946,7 +947,6 @@
 		D3F795D615A582810077328B /* ChatConversationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F795D415A582800077328B /* ChatConversationView.m */; };
 		D3F7998115BD32370018C273 /* TPMultiLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F7998015BD32370018C273 /* TPMultiLayoutViewController.m */; };
 		D3F83F8E15822ABE00336684 /* PhoneMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F83F8D15822ABD00336684 /* PhoneMainView.m */; };
-		E4440DC2FC040E5FE40BA5AF /* Pods_linphone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FD9930E5B1F4149D45BB1C /* Pods_linphone.framework */; };
 		EA0007A62356008F003CC6BF /* msgNotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EA5F25D9232BD3E200475F2E /* msgNotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		EA3650DB2330D2E30001148A /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5F25DB232BD3E200475F2E /* NotificationService.swift */; };
 		EA88A405242A6216007FEC61 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63AADBC41B6A0FF200AA16FD /* Localizable.strings */; };
@@ -973,7 +973,7 @@
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 61AE364A20C00B370089D9D3;
-			remoteInfo = linphoneExtension;
+			remoteInfo = vsphoneExtension;
 		};
 		6637AF93288593AF00965733 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1005,7 +1005,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				61AE365620C00B370089D9D3 /* linphoneExtension.appex in Embed App Extensions */,
+				61AE365620C00B370089D9D3 /* vsphoneExtension.appex in Embed App Extensions */,
 				EA8CB833239F96CA00C330CC /* msgNotificationContent.appex in Embed App Extensions */,
 				EA0007A62356008F003CC6BF /* msgNotificationService.appex in Embed App Extensions */,
 			);
@@ -1025,15 +1025,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07FF12103099A9268BEFFD63 /* Pods-msgNotificationContent.distributionadhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationContent.distributionadhoc.xcconfig"; path = "Target Support Files/Pods-msgNotificationContent/Pods-msgNotificationContent.distributionadhoc.xcconfig"; sourceTree = "<group>"; };
 		152F22351B15E889008C0621 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		1A10E1CD088B6550326F433E /* Pods-linphone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linphone.debug.xcconfig"; path = "Target Support Files/Pods-linphone/Pods-linphone.debug.xcconfig"; sourceTree = "<group>"; };
-		1CAD1CF40E820DA7F1752DD2 /* Pods-CallUITests.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallUITests.distribution.xcconfig"; path = "Target Support Files/Pods-CallUITests/Pods-CallUITests.distribution.xcconfig"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* LinphoneAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinphoneAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* LinphoneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinphoneAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* linphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = linphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DA35546364BBF65F0DF5E8F /* Pods_msgNotificationContent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msgNotificationContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* vsphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vsphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		20DA772BA4BB12F5D78468A1 /* Pods-msgNotificationService.distributionadhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationService.distributionadhoc.xcconfig"; path = "Target Support Files/Pods-msgNotificationService/Pods-msgNotificationService.distributionadhoc.xcconfig"; sourceTree = "<group>"; };
 		2214EB7812F846B1002A5394 /* UICallButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICallButton.h; sourceTree = "<group>"; };
 		2214EB7912F846B1002A5394 /* UICallButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICallButton.m; sourceTree = "<group>"; };
 		22276E8613C73D8A00210156 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
@@ -1083,20 +1082,20 @@
 		24E1C7B91F9A235500D3F981 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* linphone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linphone_Prefix.pch; sourceTree = "<group>"; };
+		2A8C476FFF91F9B38B009B26 /* Pods-vsphone.distributionadhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vsphone.distributionadhoc.xcconfig"; path = "Target Support Files/Pods-vsphone/Pods-vsphone.distributionadhoc.xcconfig"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* vsphone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vsphone_Prefix.pch; sourceTree = "<group>"; };
 		340751961506459A00B89C47 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		344ABDEF14850AE9007420B6 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "usr/lib/libc++.1.dylib"; sourceTree = SDKROOT; };
 		344ABDF014850AE9007420B6 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
-		3E068193AC70B1F268F7A3AC /* Pods-ConferenceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConferenceUITests.release.xcconfig"; path = "Target Support Files/Pods-ConferenceUITests/Pods-ConferenceUITests.release.xcconfig"; sourceTree = "<group>"; };
-		3EDEA8FA8B616DA71EDE51E5 /* Pods-msgNotificationService.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationService.distribution.xcconfig"; path = "Target Support Files/Pods-msgNotificationService/Pods-msgNotificationService.distribution.xcconfig"; sourceTree = "<group>"; };
-		49381ABF67DC815C5F299A43 /* Pods_CallUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CallUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49BCAA5D96F3C5BE44D20A5C /* Pods-msgNotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationService.release.xcconfig"; path = "Target Support Files/Pods-msgNotificationService/Pods-msgNotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		35ACACE4AF4BC299D7835C0C /* Pods-CallUITests.distributionadhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallUITests.distributionadhoc.xcconfig"; path = "Target Support Files/Pods-CallUITests/Pods-CallUITests.distributionadhoc.xcconfig"; sourceTree = "<group>"; };
+		3AF4D0C09A69F362C00C8D52 /* Pods-vsphone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vsphone.release.xcconfig"; path = "Target Support Files/Pods-vsphone/Pods-vsphone.release.xcconfig"; sourceTree = "<group>"; };
+		45A921F007435AF4FF0FF9A7 /* Pods-vsphone.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vsphone.distribution.xcconfig"; path = "Target Support Files/Pods-vsphone/Pods-vsphone.distribution.xcconfig"; sourceTree = "<group>"; };
+		4A827CB99225C68A78E9AA0A /* Pods_vsphone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vsphone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F48B8C32800BCF304377B7F /* Pods-msgNotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationService.release.xcconfig"; path = "Target Support Files/Pods-msgNotificationService/Pods-msgNotificationService.release.xcconfig"; sourceTree = "<group>"; };
 		570742571D5A0691004B9C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ShopView.xib; sourceTree = "<group>"; };
 		5707425F1D5A09B8004B9C84 /* ShopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopView.m; sourceTree = "<group>"; };
 		570742601D5A09B8004B9C84 /* ShopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopView.h; sourceTree = "<group>"; };
 		570742661D5A63DB004B9C84 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		595A41ABC48A62CE11868F9E /* Pods-msgNotificationContent.distributionadhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationContent.distributionadhoc.xcconfig"; path = "Target Support Files/Pods-msgNotificationContent/Pods-msgNotificationContent.distributionadhoc.xcconfig"; sourceTree = "<group>"; };
-		5BF3D86E8AD8910810048241 /* Pods-msgNotificationContent.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationContent.distribution.xcconfig"; path = "Target Support Files/Pods-msgNotificationContent/Pods-msgNotificationContent.distribution.xcconfig"; sourceTree = "<group>"; };
 		5E58962520DCE5700030868C /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		5EF0C33820C806A5005081B0 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		6112A01B243B31A600DBD5F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -1186,12 +1185,12 @@
 		6187B1DE24B3272600D580FB /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = "hu.lproj/SideMenuView~ipad.strings"; sourceTree = "<group>"; };
 		6187B1DF24B3272600D580FB /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/StatusBarView.strings; sourceTree = "<group>"; };
 		6187B1E024B3272700D580FB /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/TabBarView.strings; sourceTree = "<group>"; };
-		61AE364B20C00B370089D9D3 /* linphoneExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = linphoneExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		61AE364B20C00B370089D9D3 /* vsphoneExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = vsphoneExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		61AE364D20C00B370089D9D3 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
 		61AE364E20C00B370089D9D3 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
 		61AE365120C00B370089D9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		61AE365320C00B370089D9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61AE366320C00C810089D9D3 /* linphoneExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = linphoneExtension.entitlements; sourceTree = "<group>"; };
+		61AE366320C00C810089D9D3 /* vsphoneExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vsphoneExtension.entitlements; sourceTree = "<group>"; };
 		61AEBEB5219198EF00F35E7F /* DevicesListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DevicesListView.h; sourceTree = "<group>"; };
 		61AEBEBC2191990A00F35E7F /* DevicesListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevicesListView.m; sourceTree = "<group>"; };
 		61AEBEBE2191991F00F35E7F /* DevicesListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DevicesListView.xib; sourceTree = "<group>"; };
@@ -1769,15 +1768,14 @@
 		669B140B27A29D140012220A /* FloatingScrollDownButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingScrollDownButton.swift; sourceTree = "<group>"; };
 		66E399F52857869200E73456 /* menu_notifications_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_notifications_off.png; sourceTree = "<group>"; };
 		66E399F62857869200E73456 /* menu_notifications_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_notifications_on.png; sourceTree = "<group>"; };
-		6872242062F852BE19E78D5A /* Pods-linphone.distributionadhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linphone.distributionadhoc.xcconfig"; path = "Target Support Files/Pods-linphone/Pods-linphone.distributionadhoc.xcconfig"; sourceTree = "<group>"; };
+		6D6494E7B97559BFB95A579F /* Pods-CallUITests.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallUITests.distribution.xcconfig"; path = "Target Support Files/Pods-CallUITests/Pods-CallUITests.distribution.xcconfig"; sourceTree = "<group>"; };
 		70E542F213E147E3002BA2C0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		70E542F413E147EB002BA2C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		71361846551F180407CA4B43 /* Pods-linphone.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linphone.distribution.xcconfig"; path = "Target Support Files/Pods-linphone/Pods-linphone.distribution.xcconfig"; sourceTree = "<group>"; };
-		799B9EAE0655DBE81E9B29FF /* Pods-ConferenceUITests.distributionadhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConferenceUITests.distributionadhoc.xcconfig"; path = "Target Support Files/Pods-ConferenceUITests/Pods-ConferenceUITests.distributionadhoc.xcconfig"; sourceTree = "<group>"; };
-		842B7EC5D5497903DF48A6A1 /* Pods-msgNotificationContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationContent.release.xcconfig"; path = "Target Support Files/Pods-msgNotificationContent/Pods-msgNotificationContent.release.xcconfig"; sourceTree = "<group>"; };
-		8751F1E7083FF5EDF43CEEF1 /* Pods-CallUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallUITests.release.xcconfig"; path = "Target Support Files/Pods-CallUITests/Pods-CallUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7FA6E20F66D42C8585C91056 /* Pods-msgNotificationContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationContent.debug.xcconfig"; path = "Target Support Files/Pods-msgNotificationContent/Pods-msgNotificationContent.debug.xcconfig"; sourceTree = "<group>"; };
+		817CCAACBD382D547C0D7225 /* Pods-msgNotificationContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationContent.release.xcconfig"; path = "Target Support Files/Pods-msgNotificationContent/Pods-msgNotificationContent.release.xcconfig"; sourceTree = "<group>"; };
+		84BE81E0196FC32A77768FB0 /* Pods_msgNotificationContent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msgNotificationContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1A1F7C1FA331D40064BE00 /* libsoci_sqlite3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsoci_sqlite3.a; path = "liblinphone-sdk/apple-darwin/lib/libsoci_sqlite3.a"; sourceTree = "<group>"; };
-		8C23BCB71D82AAC3005F19BB /* linphone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = linphone.entitlements; sourceTree = "<group>"; };
+		8C23BCB71D82AAC3005F19BB /* vsphone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vsphone.entitlements; sourceTree = "<group>"; };
 		8C2595DE1DEDCC8E007A6424 /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
 		8C2A81931F87B7FF0012A66B /* chat_group_avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_group_avatar@2x.png"; sourceTree = "<group>"; };
 		8C2A81941F87B8000012A66B /* chat_group_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_group_avatar.png; sourceTree = "<group>"; };
@@ -1863,14 +1861,11 @@
 		8CF25D941F9F336100BEA0C1 /* check_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_unselected.png; sourceTree = "<group>"; };
 		8CF25D9B1F9F76BC00BEA0C1 /* chat_group_informations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_group_informations.png; sourceTree = "<group>"; };
 		8CF25D9C1F9F76BD00BEA0C1 /* chat_group_informations@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_group_informations@2x.png"; sourceTree = "<group>"; };
-		943C756D8C523B63A9BA4022 /* Pods_msgNotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msgNotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		95AD7F004071737738D4BCF2 /* Pods-CallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallUITests.debug.xcconfig"; path = "Target Support Files/Pods-CallUITests/Pods-CallUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9B3B6B861461E656FAF443CC /* Pods-CallUITests.distributionadhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallUITests.distributionadhoc.xcconfig"; path = "Target Support Files/Pods-CallUITests/Pods-CallUITests.distributionadhoc.xcconfig"; sourceTree = "<group>"; };
-		9B7FA931ED086404EBA1A1DF /* Pods-ConferenceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConferenceUITests.debug.xcconfig"; path = "Target Support Files/Pods-ConferenceUITests/Pods-ConferenceUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		A52DBCC32989FB3510AF3B1E /* Pods-msgNotificationService.distributionadhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationService.distributionadhoc.xcconfig"; path = "Target Support Files/Pods-msgNotificationService/Pods-msgNotificationService.distributionadhoc.xcconfig"; sourceTree = "<group>"; };
-		A6FD9930E5B1F4149D45BB1C /* Pods_linphone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_linphone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD31E0BAAE2E50305E05B683 /* Pods-msgNotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationService.debug.xcconfig"; path = "Target Support Files/Pods-msgNotificationService/Pods-msgNotificationService.debug.xcconfig"; sourceTree = "<group>"; };
-		B0D404E542E5871F7437A060 /* Pods-msgNotificationContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationContent.debug.xcconfig"; path = "Target Support Files/Pods-msgNotificationContent/Pods-msgNotificationContent.debug.xcconfig"; sourceTree = "<group>"; };
+		92B2E68314228F11197452F1 /* Pods-CallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallUITests.debug.xcconfig"; path = "Target Support Files/Pods-CallUITests/Pods-CallUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3677BEBE1E19B82CA4C4371 /* Pods_msgNotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msgNotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E000A1F48ACA92B3A11E15 /* Pods-msgNotificationService.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationService.distribution.xcconfig"; path = "Target Support Files/Pods-msgNotificationService/Pods-msgNotificationService.distribution.xcconfig"; sourceTree = "<group>"; };
+		ACEED7D54D68A1E394E21D3F /* Pods-vsphone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vsphone.debug.xcconfig"; path = "Target Support Files/Pods-vsphone/Pods-vsphone.debug.xcconfig"; sourceTree = "<group>"; };
+		B143574BE3AC271A57550AC2 /* Pods-CallUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallUITests.release.xcconfig"; path = "Target Support Files/Pods-CallUITests/Pods-CallUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C61B1BF12667D075001A4E4A /* menu_security_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_security_default.png; sourceTree = "<group>"; };
 		C61B1BF32667D202001A4E4A /* more_menu_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more_menu_default.png; sourceTree = "<group>"; };
 		C61B1BF62667EC6B001A4E4A /* ephemeral_messages_color_A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ephemeral_messages_color_A.png; sourceTree = "<group>"; };
@@ -2200,8 +2195,7 @@
 		D3F7998015BD32370018C273 /* TPMultiLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPMultiLayoutViewController.m; path = Utils/TPMultiLayoutViewController/TPMultiLayoutViewController.m; sourceTree = "<group>"; };
 		D3F83F8C158229C500336684 /* PhoneMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneMainView.h; sourceTree = "<group>"; };
 		D3F83F8D15822ABD00336684 /* PhoneMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneMainView.m; sourceTree = "<group>"; };
-		DC2F21ADD3E0ABFC644BF401 /* Pods-ConferenceUITests.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConferenceUITests.distribution.xcconfig"; path = "Target Support Files/Pods-ConferenceUITests/Pods-ConferenceUITests.distribution.xcconfig"; sourceTree = "<group>"; };
-		DD200DBE06C872CC97CA1695 /* Pods_ConferenceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConferenceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FEF6064A0DE09ED14DF3D0 /* Pods_CallUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CallUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5F25D9232BD3E200475F2E /* msgNotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = msgNotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5F25DB232BD3E200475F2E /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		EA5F25DD232BD3E200475F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2212,6 +2206,7 @@
 		EA8CB83F239FD41400C330CC /* msgNotificationContent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = msgNotificationContent.entitlements; sourceTree = "<group>"; };
 		EAB783CF232F8E4D0076B1A0 /* msgNotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = msgNotificationService.entitlements; sourceTree = "<group>"; };
 		EAE6C88323FABF690076A018 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = msgNotification/Utils.swift; sourceTree = SOURCE_ROOT; };
+		EF1EEFDF751C591F6AF7EC99 /* Pods-msgNotificationContent.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationContent.distribution.xcconfig"; path = "Target Support Files/Pods-msgNotificationContent/Pods-msgNotificationContent.distribution.xcconfig"; sourceTree = "<group>"; };
 		F0181B6B18BF7B1200A9A357 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		F03A9B9418C0DAE100C4D7FE /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		F03A9B9718C0DB6F00C4D7FE /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
@@ -2266,7 +2261,7 @@
 		F0BB8C34193624C800974404 /* libresolv.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.9.dylib; path = usr/lib/libresolv.9.dylib; sourceTree = SDKROOT; };
 		F0BB8C4A193631B300974404 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		F0FF66AA1ACAEEB0008A4486 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = ../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = "<group>"; };
-		FDB59567FECF2E083DBDC142 /* Pods-linphone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linphone.release.xcconfig"; path = "Target Support Files/Pods-linphone/Pods-linphone.release.xcconfig"; sourceTree = "<group>"; };
+		F5F70E08B2C54587406C8ED2 /* Pods-msgNotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationService.debug.xcconfig"; path = "Target Support Files/Pods-msgNotificationService/Pods-msgNotificationService.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2276,7 +2271,7 @@
 			files = (
 				EA88F3AC241BD05200E66528 /* UserNotificationsUI.framework in Frameworks */,
 				EA88F3AB241BD05200E66528 /* UserNotifications.framework in Frameworks */,
-				AC76CCEFDCD59EB01C2DE3F8 /* Pods_msgNotificationContent.framework in Frameworks */,
+				77E6BCF817469261EA6D7445 /* Pods_msgNotificationContent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2317,7 +2312,7 @@
 				F05BAA621A5D594E00411815 /* libz.dylib in Frameworks */,
 				344ABDF114850AE9007420B6 /* libc++.1.dylib in Frameworks */,
 				22D1B68112A3E0BE001AE361 /* libresolv.dylib in Frameworks */,
-				E4440DC2FC040E5FE40BA5AF /* Pods_linphone.framework in Frameworks */,
+				771DC0B76313898790142731 /* Pods_vsphone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2325,7 +2320,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C8883CF9CD21240125CC74 /* Pods_msgNotificationService.framework in Frameworks */,
+				A5E012F0CC692C17A699E3EA /* Pods_msgNotificationService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2340,7 +2335,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35C5F1B660753F3FF79848A /* Pods_CallUITests.framework in Frameworks */,
+				1B5F377359D2CD707CB884F8 /* Pods_CallUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2476,8 +2471,8 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* linphone.app */,
-				61AE364B20C00B370089D9D3 /* linphoneExtension.appex */,
+				1D6058910D05DD3D006BFB54 /* vsphone.app */,
+				61AE364B20C00B370089D9D3 /* vsphoneExtension.appex */,
 				EA5F25D9232BD3E200475F2E /* msgNotificationService.appex */,
 				EA8CB827239F96CA00C330CC /* msgNotificationContent.appex */,
 				6637AF8D288593AF00965733 /* CallUITests.xctest */,
@@ -2592,13 +2587,13 @@
 			path = LinphoneUI;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA = {
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				8C23BCB71D82AAC3005F19BB /* linphone.entitlements */,
+				8C23BCB71D82AAC3005F19BB /* vsphone.entitlements */,
 				614D09CD21E74D5400C43EDF /* GoogleService-Info.plist */,
 				080E96DDFE201D6D7F000001 /* Classes */,
-				61AE364C20C00B370089D9D3 /* linphoneExtension */,
+				61AE364C20C00B370089D9D3 /* vsphoneExtension */,
 				EA5F25DA232BD3E200475F2E /* msgNotificationService */,
 				662F5971288AEFAA00C9CAF7 /* UITests */,
 				EA8CB82A239F96CA00C330CC /* msgNotificationContent */,
@@ -2617,7 +2612,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* linphone_Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* vsphone_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -2680,25 +2675,24 @@
 				8C73477B1D9BA3A00022EE8C /* UserNotifications.framework */,
 				5E58962520DCE5700030868C /* UserNotificationsUI.framework */,
 				63CE583F1C85EBF400304800 /* VideoToolbox.framework */,
-				49381ABF67DC815C5F299A43 /* Pods_CallUITests.framework */,
-				DD200DBE06C872CC97CA1695 /* Pods_ConferenceUITests.framework */,
-				A6FD9930E5B1F4149D45BB1C /* Pods_linphone.framework */,
-				1DA35546364BBF65F0DF5E8F /* Pods_msgNotificationContent.framework */,
-				943C756D8C523B63A9BA4022 /* Pods_msgNotificationService.framework */,
+				E4FEF6064A0DE09ED14DF3D0 /* Pods_CallUITests.framework */,
+				84BE81E0196FC32A77768FB0 /* Pods_msgNotificationContent.framework */,
+				A3677BEBE1E19B82CA4C4371 /* Pods_msgNotificationService.framework */,
+				4A827CB99225C68A78E9AA0A /* Pods_vsphone.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		61AE364C20C00B370089D9D3 /* linphoneExtension */ = {
+		61AE364C20C00B370089D9D3 /* vsphoneExtension */ = {
 			isa = PBXGroup;
 			children = (
-				61AE366320C00C810089D9D3 /* linphoneExtension.entitlements */,
+				61AE366320C00C810089D9D3 /* vsphoneExtension.entitlements */,
 				61AE364D20C00B370089D9D3 /* ShareViewController.h */,
 				61AE364E20C00B370089D9D3 /* ShareViewController.m */,
 				61AE365020C00B370089D9D3 /* MainInterface.storyboard */,
 				61AE365320C00B370089D9D3 /* Info.plist */,
 			);
-			path = linphoneExtension;
+			path = vsphoneExtension;
 			sourceTree = "<group>";
 		};
 		633888401BFB2C49001D5E7B /* HPGrowingTextView */ = {
@@ -3426,26 +3420,22 @@
 		75AA7090378DBBA5417E4370 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				95AD7F004071737738D4BCF2 /* Pods-CallUITests.debug.xcconfig */,
-				8751F1E7083FF5EDF43CEEF1 /* Pods-CallUITests.release.xcconfig */,
-				1CAD1CF40E820DA7F1752DD2 /* Pods-CallUITests.distribution.xcconfig */,
-				9B3B6B861461E656FAF443CC /* Pods-CallUITests.distributionadhoc.xcconfig */,
-				9B7FA931ED086404EBA1A1DF /* Pods-ConferenceUITests.debug.xcconfig */,
-				3E068193AC70B1F268F7A3AC /* Pods-ConferenceUITests.release.xcconfig */,
-				DC2F21ADD3E0ABFC644BF401 /* Pods-ConferenceUITests.distribution.xcconfig */,
-				799B9EAE0655DBE81E9B29FF /* Pods-ConferenceUITests.distributionadhoc.xcconfig */,
-				1A10E1CD088B6550326F433E /* Pods-linphone.debug.xcconfig */,
-				FDB59567FECF2E083DBDC142 /* Pods-linphone.release.xcconfig */,
-				71361846551F180407CA4B43 /* Pods-linphone.distribution.xcconfig */,
-				6872242062F852BE19E78D5A /* Pods-linphone.distributionadhoc.xcconfig */,
-				B0D404E542E5871F7437A060 /* Pods-msgNotificationContent.debug.xcconfig */,
-				842B7EC5D5497903DF48A6A1 /* Pods-msgNotificationContent.release.xcconfig */,
-				5BF3D86E8AD8910810048241 /* Pods-msgNotificationContent.distribution.xcconfig */,
-				595A41ABC48A62CE11868F9E /* Pods-msgNotificationContent.distributionadhoc.xcconfig */,
-				AD31E0BAAE2E50305E05B683 /* Pods-msgNotificationService.debug.xcconfig */,
-				49BCAA5D96F3C5BE44D20A5C /* Pods-msgNotificationService.release.xcconfig */,
-				3EDEA8FA8B616DA71EDE51E5 /* Pods-msgNotificationService.distribution.xcconfig */,
-				A52DBCC32989FB3510AF3B1E /* Pods-msgNotificationService.distributionadhoc.xcconfig */,
+				92B2E68314228F11197452F1 /* Pods-CallUITests.debug.xcconfig */,
+				B143574BE3AC271A57550AC2 /* Pods-CallUITests.release.xcconfig */,
+				6D6494E7B97559BFB95A579F /* Pods-CallUITests.distribution.xcconfig */,
+				35ACACE4AF4BC299D7835C0C /* Pods-CallUITests.distributionadhoc.xcconfig */,
+				7FA6E20F66D42C8585C91056 /* Pods-msgNotificationContent.debug.xcconfig */,
+				817CCAACBD382D547C0D7225 /* Pods-msgNotificationContent.release.xcconfig */,
+				EF1EEFDF751C591F6AF7EC99 /* Pods-msgNotificationContent.distribution.xcconfig */,
+				07FF12103099A9268BEFFD63 /* Pods-msgNotificationContent.distributionadhoc.xcconfig */,
+				F5F70E08B2C54587406C8ED2 /* Pods-msgNotificationService.debug.xcconfig */,
+				4F48B8C32800BCF304377B7F /* Pods-msgNotificationService.release.xcconfig */,
+				A6E000A1F48ACA92B3A11E15 /* Pods-msgNotificationService.distribution.xcconfig */,
+				20DA772BA4BB12F5D78468A1 /* Pods-msgNotificationService.distributionadhoc.xcconfig */,
+				ACEED7D54D68A1E394E21D3F /* Pods-vsphone.debug.xcconfig */,
+				3AF4D0C09A69F362C00C8D52 /* Pods-vsphone.release.xcconfig */,
+				45A921F007435AF4FF0FF9A7 /* Pods-vsphone.distribution.xcconfig */,
+				2A8C476FFF91F9B38B009B26 /* Pods-vsphone.distributionadhoc.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -3898,11 +3888,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* linphone */ = {
+		1D6058900D05DD3D006BFB54 /* vsphone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "linphone" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "vsphone" */;
 			buildPhases = (
-				75EA65B333185E8C417354AA /* [CP] Check Pods Manifest.lock */,
+				D485D7D52514FBFB13201E09 /* [CP] Check Pods Manifest.lock */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				63DCC71D1A07B08E00916627 /* Run Script */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -3910,7 +3900,7 @@
 				8CDC89061EAF89A8006B5652 /* Embed Frameworks */,
 				5EF0C35020C806A5005081B0 /* Embed App Extensions */,
 				614D0A1821E77F5300C43EDF /* ShellScript */,
-				EB63CF57E1CDAC8DC31C1CBE /* [CP] Embed Pods Frameworks */,
+				E5EA066B3D76AFD906262126 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -3919,14 +3909,14 @@
 				EA8CB83C239F9A3000C330CC /* PBXTargetDependency */,
 				61AE365520C00B370089D9D3 /* PBXTargetDependency */,
 			);
-			name = linphone;
+			name = vsphone;
 			productName = linphone;
-			productReference = 1D6058910D05DD3D006BFB54 /* linphone.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* vsphone.app */;
 			productType = "com.apple.product-type.application";
 		};
-		61AE364A20C00B370089D9D3 /* linphoneExtension */ = {
+		61AE364A20C00B370089D9D3 /* vsphoneExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61AE366120C00B370089D9D3 /* Build configuration list for PBXNativeTarget "linphoneExtension" */;
+			buildConfigurationList = 61AE366120C00B370089D9D3 /* Build configuration list for PBXNativeTarget "vsphoneExtension" */;
 			buildPhases = (
 				61AE364720C00B370089D9D3 /* Sources */,
 				61AE364820C00B370089D9D3 /* Frameworks */,
@@ -3936,21 +3926,21 @@
 			);
 			dependencies = (
 			);
-			name = linphoneExtension;
-			productName = linphoneExtension;
-			productReference = 61AE364B20C00B370089D9D3 /* linphoneExtension.appex */;
+			name = vsphoneExtension;
+			productName = vsphoneExtension;
+			productReference = 61AE364B20C00B370089D9D3 /* vsphoneExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		6637AF8C288593AF00965733 /* CallUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6637AF99288593AF00965733 /* Build configuration list for PBXNativeTarget "CallUITests" */;
 			buildPhases = (
-				5053FDC66A7F809319B46BF3 /* [CP] Check Pods Manifest.lock */,
+				8F8E415C3A774D321311234D /* [CP] Check Pods Manifest.lock */,
 				6637AF89288593AF00965733 /* Sources */,
 				6637AF8A288593AF00965733 /* Frameworks */,
 				6637AF8B288593AF00965733 /* Resources */,
-				5D7EB00FFF68B940A86FC3A7 /* [CP] Embed Pods Frameworks */,
 				66495D0D2890269C002780DE /* Run Script */,
+				0EE815885B6ABC584689F5F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -3966,7 +3956,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA5F25E1232BD3E300475F2E /* Build configuration list for PBXNativeTarget "msgNotificationService" */;
 			buildPhases = (
-				3007955DA8B4F1E14F2B7518 /* [CP] Check Pods Manifest.lock */,
+				4CDC2FE43643831D424198D3 /* [CP] Check Pods Manifest.lock */,
 				EA5F25D5232BD3E200475F2E /* Sources */,
 				203E6292C3E84CD13778F720 /* Frameworks */,
 				EA88A406242A6224007FEC61 /* Resources */,
@@ -3985,7 +3975,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA8CB834239F96CA00C330CC /* Build configuration list for PBXNativeTarget "msgNotificationContent" */;
 			buildPhases = (
-				897DE6709DE23EF9C66BE1B0 /* [CP] Check Pods Manifest.lock */,
+				7ED985B17FF63F2AC260A65C /* [CP] Check Pods Manifest.lock */,
 				EA8CB823239F96CA00C330CC /* Sources */,
 				143EFEE2501CB14E6BB244EF /* Frameworks */,
 				EA88F3AE241BD1ED00E66528 /* Resources */,
@@ -4069,7 +4059,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "linphone" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "vsphone" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -4093,13 +4083,13 @@
 				fr,
 				hu,
 			);
-			mainGroup = 29B97314FDCFA39411CA2CEA;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* linphone */,
-				61AE364A20C00B370089D9D3 /* linphoneExtension */,
+				1D6058900D05DD3D006BFB54 /* vsphone */,
+				61AE364A20C00B370089D9D3 /* vsphoneExtension */,
 				EA5F25D8232BD3E200475F2E /* msgNotificationService */,
 				EA8CB826239F96CA00C330CC /* msgNotificationContent */,
 				6637AF8C288593AF00965733 /* CallUITests */,
@@ -4164,7 +4154,7 @@
 				633FEEE01D3CD55A0014B822 /* numpad_8_over~ipad@2x.png in Resources */,
 				633FEDDC1D3CD5590014B822 /* call_start_body_disabled~ipad.png in Resources */,
 				C63F72FF285A31DA0066163B /* Roboto-Bold.ttf in Resources */,
-				63E802DB1C625AEF000D5509 /* BuildFile in Resources */,
+				63E802DB1C625AEF000D5509 /* (null) in Resources */,
 				633FEE2E1D3CD5590014B822 /* color_F.png in Resources */,
 				633FEDC51D3CD5590014B822 /* call_hangup_disabled@2x.png in Resources */,
 				633FEEDF1D3CD55A0014B822 /* numpad_8_over~ipad.png in Resources */,
@@ -4827,51 +4817,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3007955DA8B4F1E14F2B7518 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-msgNotificationService-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5053FDC66A7F809319B46BF3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CallUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5D7EB00FFF68B940A86FC3A7 /* [CP] Embed Pods Frameworks */ = {
+		0EE815885B6ABC584689F5F5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4959,6 +4905,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CallUITests/Pods-CallUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CDC2FE43643831D424198D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-msgNotificationService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6112A019243B2C8400DBD5F5 /* ShellScript */ = {
@@ -5051,29 +5019,7 @@
 			shellPath = /bin/sh;
 			shellScript = "cp -R ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}* ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/../../../Frameworks\n";
 		};
-		75EA65B333185E8C417354AA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-linphone-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		897DE6709DE23EF9C66BE1B0 /* [CP] Check Pods Manifest.lock */ = {
+		7ED985B17FF63F2AC260A65C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -5095,13 +5041,57 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EB63CF57E1CDAC8DC31C1CBE /* [CP] Embed Pods Frameworks */ = {
+		8F8E415C3A774D321311234D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CallUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D485D7D52514FBFB13201E09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vsphone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5EA066B3D76AFD906262126 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-linphone/Pods-linphone-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-vsphone/Pods-vsphone-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
@@ -5190,7 +5180,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-linphone/Pods-linphone-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vsphone/Pods-vsphone-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -5471,12 +5461,12 @@
 /* Begin PBXTargetDependency section */
 		61AE365520C00B370089D9D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 61AE364A20C00B370089D9D3 /* linphoneExtension */;
+			target = 61AE364A20C00B370089D9D3 /* vsphoneExtension */;
 			targetProxy = 61AE365420C00B370089D9D3 /* PBXContainerItemProxy */;
 		};
 		6637AF94288593AF00965733 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D6058900D05DD3D006BFB54 /* linphone */;
+			target = 1D6058900D05DD3D006BFB54 /* vsphone */;
 			targetProxy = 6637AF93288593AF00965733 /* PBXContainerItemProxy */;
 		};
 		EA8CB83A239F9A3000C330CC /* PBXTargetDependency */ = {
@@ -5958,7 +5948,7 @@
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A10E1CD088B6550326F433E /* Pods-linphone.debug.xcconfig */;
+			baseConfigurationReference = ACEED7D54D68A1E394E21D3F /* Pods-vsphone.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -5968,7 +5958,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_UNREACHABLE_CODE = NO;
-				CODE_SIGN_ENTITLEMENTS = linphone.entitlements;
+				CODE_SIGN_ENTITLEMENTS = vsphone.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -5982,7 +5972,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = linphone_Prefix.pch;
+				GCC_PREFIX_HEADER = vsphone_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DEBUG=1",
@@ -5996,9 +5986,9 @@
 					"$(SRCROOT)/Classes/Utils/NinePatch/",
 					"$(inherited)",
 				);
-				IBC_MODULE = linphoneapp;
-				IBSC_MODULE = linphoneapp;
-				INFOPLIST_FILE = "linphone-Info.plist";
+				IBC_MODULE = vsphoneapp;
+				IBSC_MODULE = vsphoneapp;
+				INFOPLIST_FILE = "vsphone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -6016,15 +6006,15 @@
 					"-DLINPHONE_SDK_VERSION=\\\"5.2.0-alpha.339+3143b990\\\"",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsphone.phone;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)app";
-				PRODUCT_NAME = linphone;
+				PRODUCT_NAME = vsphone;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 				STRIP_SWIFT_SYMBOLS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "Classes/linphone-Bridging-Header.h";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "linphoneapp-Swift.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/vsphone-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "vsphoneapp-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				WARNING_CFLAGS = (
@@ -6088,7 +6078,7 @@
 		};
 		228B19A71302902F00F154D3 /* DistributionAdhoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6872242062F852BE19E78D5A /* Pods-linphone.distributionadhoc.xcconfig */;
+			baseConfigurationReference = 2A8C476FFF91F9B38B009B26 /* Pods-vsphone.distributionadhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -6098,7 +6088,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_UNREACHABLE_CODE = NO;
-				CODE_SIGN_ENTITLEMENTS = linphone.entitlements;
+				CODE_SIGN_ENTITLEMENTS = vsphone.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -6112,7 +6102,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = linphone_Prefix.pch;
+				GCC_PREFIX_HEADER = vsphone_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
@@ -6123,9 +6113,9 @@
 					"$(SRCROOT)/Classes/Utils/NinePatch/",
 					"$(inherited)",
 				);
-				IBC_MODULE = linphoneapp;
-				IBSC_MODULE = linphoneapp;
-				INFOPLIST_FILE = "linphone-Info.plist";
+				IBC_MODULE = vsphoneapp;
+				IBSC_MODULE = vsphoneapp;
+				INFOPLIST_FILE = "vsphone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -6143,15 +6133,15 @@
 					"-DLINPHONE_SDK_VERSION=\\\"5.2.0-alpha.339+3143b990\\\"",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsphone.phone;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)app";
-				PRODUCT_NAME = linphone;
+				PRODUCT_NAME = vsphone;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 				STRIP_SWIFT_SYMBOLS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "Classes/linphone-Bridging-Header.h";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "linphoneapp-Swift.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/vsphone-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "vsphoneapp-Swift.h";
 				SWIFT_VERSION = 5.0;
 				WARNING_CFLAGS = (
 					"-Werror=objc-method-access",
@@ -6214,7 +6204,7 @@
 		};
 		22F3D55613CC3C9100A0DA02 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDB59567FECF2E083DBDC142 /* Pods-linphone.release.xcconfig */;
+			baseConfigurationReference = 3AF4D0C09A69F362C00C8D52 /* Pods-vsphone.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -6224,7 +6214,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_UNREACHABLE_CODE = NO;
-				CODE_SIGN_ENTITLEMENTS = linphone.entitlements;
+				CODE_SIGN_ENTITLEMENTS = vsphone.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -6238,7 +6228,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = linphone_Prefix.pch;
+				GCC_PREFIX_HEADER = vsphone_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
@@ -6249,9 +6239,9 @@
 					"$(SRCROOT)/Classes/Utils/NinePatch/",
 					"$(inherited)",
 				);
-				IBC_MODULE = linphoneapp;
-				IBSC_MODULE = linphoneapp;
-				INFOPLIST_FILE = "linphone-Info.plist";
+				IBC_MODULE = vsphoneapp;
+				IBSC_MODULE = vsphoneapp;
+				INFOPLIST_FILE = "vsphone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -6269,15 +6259,15 @@
 					"-DLINPHONE_SDK_VERSION=\\\"5.2.0-alpha.339+3143b990\\\"",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsphone.phone;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)app";
-				PRODUCT_NAME = linphone;
+				PRODUCT_NAME = vsphone;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 				STRIP_SWIFT_SYMBOLS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "Classes/linphone-Bridging-Header.h";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "linphoneapp-Swift.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/vsphone-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "vsphoneapp-Swift.h";
 				SWIFT_VERSION = 5.0;
 				WARNING_CFLAGS = (
 					"-Werror=objc-method-access",
@@ -6339,7 +6329,7 @@
 		};
 		22F51EE8107FA53D00F98953 /* Distribution */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71361846551F180407CA4B43 /* Pods-linphone.distribution.xcconfig */;
+			baseConfigurationReference = 45A921F007435AF4FF0FF9A7 /* Pods-vsphone.distribution.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -6349,7 +6339,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_UNREACHABLE_CODE = NO;
-				CODE_SIGN_ENTITLEMENTS = linphone.entitlements;
+				CODE_SIGN_ENTITLEMENTS = vsphone.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -6363,7 +6353,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = linphone_Prefix.pch;
+				GCC_PREFIX_HEADER = vsphone_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
@@ -6374,9 +6364,9 @@
 					"$(SRCROOT)/Classes/Utils/NinePatch/",
 					"$(inherited)",
 				);
-				IBC_MODULE = linphoneapp;
-				IBSC_MODULE = linphoneapp;
-				INFOPLIST_FILE = "linphone-Info.plist";
+				IBC_MODULE = vsphoneapp;
+				IBSC_MODULE = vsphoneapp;
+				INFOPLIST_FILE = "vsphone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -6394,15 +6384,15 @@
 					"-DLINPHONE_SDK_VERSION=\\\"5.2.0-alpha.339+3143b990\\\"",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsphone.phone;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)app";
-				PRODUCT_NAME = linphone;
+				PRODUCT_NAME = vsphone;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 				STRIP_SWIFT_SYMBOLS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "Classes/linphone-Bridging-Header.h";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "linphoneapp-Swift.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/vsphone-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "vsphoneapp-Swift.h";
 				SWIFT_VERSION = 5.0;
 				WARNING_CFLAGS = (
 					"-Werror=objc-method-access",
@@ -6427,7 +6417,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = linphoneExtension/linphoneExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = vsphoneExtension/vsphoneExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -6442,11 +6432,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = linphoneExtension/Info.plist;
+				INFOPLIST_FILE = vsphoneExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MARKETING_VERSION = 4.7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.linphoneExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsphone.phone.vsphoneExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -6470,7 +6460,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = linphoneExtension/linphoneExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = vsphoneExtension/vsphoneExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -6484,11 +6474,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = linphoneExtension/Info.plist;
+				INFOPLIST_FILE = vsphoneExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MARKETING_VERSION = 4.7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.linphoneExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsphone.phone.vsphoneExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRIP_SWIFT_SYMBOLS = NO;
@@ -6512,7 +6502,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = linphoneExtension/linphoneExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = vsphoneExtension/vsphoneExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -6526,11 +6516,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = linphoneExtension/Info.plist;
+				INFOPLIST_FILE = vsphoneExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MARKETING_VERSION = 4.7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.linphoneExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsphone.phone.vsphoneExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -6555,7 +6545,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = linphoneExtension/linphoneExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = vsphoneExtension/vsphoneExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -6569,11 +6559,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = linphoneExtension/Info.plist;
+				INFOPLIST_FILE = vsphoneExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MARKETING_VERSION = 4.7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.linphoneExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsphone.phone.vsphoneExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -6585,7 +6575,7 @@
 		};
 		6637AF95288593AF00965733 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95AD7F004071737738D4BCF2 /* Pods-CallUITests.debug.xcconfig */;
+			baseConfigurationReference = 92B2E68314228F11197452F1 /* Pods-CallUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -6647,7 +6637,7 @@
 		};
 		6637AF96288593AF00965733 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8751F1E7083FF5EDF43CEEF1 /* Pods-CallUITests.release.xcconfig */;
+			baseConfigurationReference = B143574BE3AC271A57550AC2 /* Pods-CallUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -6695,7 +6685,7 @@
 		};
 		6637AF97288593AF00965733 /* Distribution */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CAD1CF40E820DA7F1752DD2 /* Pods-CallUITests.distribution.xcconfig */;
+			baseConfigurationReference = 6D6494E7B97559BFB95A579F /* Pods-CallUITests.distribution.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -6743,7 +6733,7 @@
 		};
 		6637AF98288593AF00965733 /* DistributionAdhoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B3B6B861461E656FAF443CC /* Pods-CallUITests.distributionadhoc.xcconfig */;
+			baseConfigurationReference = 35ACACE4AF4BC299D7835C0C /* Pods-CallUITests.distributionadhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -6838,7 +6828,7 @@
 		};
 		EA5F25E2232BD3E300475F2E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD31E0BAAE2E50305E05B683 /* Pods-msgNotificationService.debug.xcconfig */;
+			baseConfigurationReference = F5F70E08B2C54587406C8ED2 /* Pods-msgNotificationService.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -6881,7 +6871,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.msgNotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsphone.phone.msgNotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -6894,7 +6884,7 @@
 		};
 		EA5F25E3232BD3E300475F2E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49BCAA5D96F3C5BE44D20A5C /* Pods-msgNotificationService.release.xcconfig */;
+			baseConfigurationReference = 4F48B8C32800BCF304377B7F /* Pods-msgNotificationService.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -6933,7 +6923,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.msgNotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsphone.phone.msgNotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -6946,7 +6936,7 @@
 		};
 		EA5F25E4232BD3E300475F2E /* Distribution */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EDEA8FA8B616DA71EDE51E5 /* Pods-msgNotificationService.distribution.xcconfig */;
+			baseConfigurationReference = A6E000A1F48ACA92B3A11E15 /* Pods-msgNotificationService.distribution.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -6985,7 +6975,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.msgNotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsphone.phone.msgNotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -6998,7 +6988,7 @@
 		};
 		EA5F25E5232BD3E300475F2E /* DistributionAdhoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A52DBCC32989FB3510AF3B1E /* Pods-msgNotificationService.distributionadhoc.xcconfig */;
+			baseConfigurationReference = 20DA772BA4BB12F5D78468A1 /* Pods-msgNotificationService.distributionadhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -7037,7 +7027,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.msgNotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsphone.phone.msgNotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -7050,7 +7040,7 @@
 		};
 		EA8CB835239F96CA00C330CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0D404E542E5871F7437A060 /* Pods-msgNotificationContent.debug.xcconfig */;
+			baseConfigurationReference = 7FA6E20F66D42C8585C91056 /* Pods-msgNotificationContent.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -7093,7 +7083,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.msgNotificationContent;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsphone.phone.msgNotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -7106,7 +7096,7 @@
 		};
 		EA8CB836239F96CA00C330CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 842B7EC5D5497903DF48A6A1 /* Pods-msgNotificationContent.release.xcconfig */;
+			baseConfigurationReference = 817CCAACBD382D547C0D7225 /* Pods-msgNotificationContent.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -7145,7 +7135,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.msgNotificationContent;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsphone.phone.msgNotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -7158,7 +7148,7 @@
 		};
 		EA8CB837239F96CA00C330CC /* Distribution */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BF3D86E8AD8910810048241 /* Pods-msgNotificationContent.distribution.xcconfig */;
+			baseConfigurationReference = EF1EEFDF751C591F6AF7EC99 /* Pods-msgNotificationContent.distribution.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -7197,7 +7187,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.msgNotificationContent;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsphone.phone.msgNotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -7210,7 +7200,7 @@
 		};
 		EA8CB838239F96CA00C330CC /* DistributionAdhoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 595A41ABC48A62CE11868F9E /* Pods-msgNotificationContent.distributionadhoc.xcconfig */;
+			baseConfigurationReference = 07FF12103099A9268BEFFD63 /* Pods-msgNotificationContent.distributionadhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -7249,7 +7239,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = org.linphone.phone.msgNotificationContent;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsphone.phone.msgNotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -7263,7 +7253,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "linphone" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "vsphone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -7274,7 +7264,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		61AE366120C00B370089D9D3 /* Build configuration list for PBXNativeTarget "linphoneExtension" */ = {
+		61AE366120C00B370089D9D3 /* Build configuration list for PBXNativeTarget "vsphoneExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61AE365720C00B370089D9D3 /* Debug */,
@@ -7296,7 +7286,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "linphone" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "vsphone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

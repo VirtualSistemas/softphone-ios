@@ -33,7 +33,7 @@
 
 #import <Intents/Intents.h>
 #import <IntentsUI/IntentsUI.h>
-#import "linphoneapp-Swift.h"
+#import "vsphoneapp-Swift.h"
 
 
 #ifdef USE_CRASHLYTICS

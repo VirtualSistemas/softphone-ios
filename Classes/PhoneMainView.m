@@ -22,7 +22,7 @@
 #import "LinphoneAppDelegate.h"
 #import "Log.h"
 #import "PhoneMainView.h"
-#import "linphoneapp-Swift.h"
+#import "vsphoneapp-Swift.h"
 
 
 static RootViewManager *rootViewManagerInstance = nil;

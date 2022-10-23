@@ -21,7 +21,7 @@
 #import "LinphoneManager.h"
 #import "PhoneMainView.h"
 #import "Utils.h"
-#import "linphoneapp-Swift.h"
+#import "vsphoneapp-Swift.h"
 
 @implementation UIHistoryCell
 
