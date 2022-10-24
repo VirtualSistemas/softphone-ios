@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -48,7 +48,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="426"/>
             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="WELCOME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="126" userLabel="titleLabel">
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="BEM VINDO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="126" userLabel="titleLabel">
                     <rect key="frame" x="36" y="0.0" width="303" height="36"/>
                     <accessibility key="accessibilityConfiguration" label="Account setup assistant"/>
                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
@@ -56,7 +56,7 @@
                     <nil key="highlightedColor"/>
                     <size key="shadowOffset" width="-1" height="-1"/>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This assistant will help you configure and use your SIP account." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Yci-5h-O4o" userLabel="subtitleLabel">
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Este assistente irá te ajudar a configurar e usar sua conta SIP" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Yci-5h-O4o" userLabel="subtitleLabel">
                     <rect key="frame" x="36" y="36" width="303" height="58"/>
                     <accessibility key="accessibilityConfiguration" label="Account setup assistant"/>
                     <constraints>
@@ -81,7 +81,7 @@
                                 <action selector="onAcceptTermsClick:" destination="-1" eventType="touchUpInside" id="grZ-W7-Lyz"/>
                             </connections>
                         </button>
-                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="I accept Belledonne Communications’ terms of use and privacy policy" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="R4J-fD-JSt" userLabel="acceptText">
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Eu aceito os termos e a política de privacidade da Virtual Sistemas" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="R4J-fD-JSt" userLabel="acceptText">
                             <rect key="frame" x="68" y="0.0" width="235" height="58"/>
                             <color key="textColor" systemColor="systemGrayColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -109,7 +109,7 @@
                         <constraint firstAttribute="height" constant="40" id="qdu-b3-MtX"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                    <state key="normal" title="CREATE ACCOUNT">
+                    <state key="normal" title="CRIAR CONTA">
                         <color key="titleColor" systemColor="labelColor"/>
                     </state>
                     <state key="disabled">
@@ -129,7 +129,7 @@
                         <constraint firstAttribute="height" constant="40" id="NkG-qe-o3R"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                    <state key="normal" title="USE LINPHONE ACCOUNT">
+                    <state key="normal" title="USAR CONTA VSPHONE">
                         <color key="titleColor" systemColor="labelColor"/>
                     </state>
                     <state key="disabled">
@@ -151,7 +151,7 @@
                         <constraint firstAttribute="height" constant="40" id="K0C-dP-WWB"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                    <state key="normal" title="USE SIP ACCOUNT">
+                    <state key="normal" title="USAR CONTA SIP">
                         <color key="titleColor" systemColor="labelColor"/>
                     </state>
                     <state key="disabled">
@@ -173,7 +173,7 @@
                         <constraint firstAttribute="height" constant="40" id="eU8-Iz-vaN"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                    <state key="normal" title="FETCH REMOTE CONFIGURATION">
+                    <state key="normal" title="BUSCAR CONFIGURACAO">
                         <color key="titleColor" systemColor="labelColor"/>
                     </state>
                     <state key="disabled">
@@ -1617,7 +1617,7 @@ To enable it in a commercial project, please contact us.</string>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Uk-jk-U5R">
-                    <rect key="frame" x="110" y="259" width="155" height="31"/>
+                    <rect key="frame" x="110" y="259" width="155" height="34.5"/>
                     <color key="backgroundColor" red="0.9497097135" green="0.27055108550000001" blue="0.030769694600000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <accessibility key="accessibilityConfiguration" identifier="assistant_login_warning_view_skip"/>
                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1648,7 +1648,7 @@ To enable it in a commercial project, please contact us.</string>
         <image name="checkbox_unchecked.png" width="27.200000762939453" height="27.200000762939453"/>
         <image name="color_F.png" width="2" height="2"/>
         <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
