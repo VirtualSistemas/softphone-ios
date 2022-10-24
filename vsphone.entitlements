@@ -22,7 +22,7 @@
 	<string>$(TeamIdentifierPrefix)$(CFBundleIdentifier)</string>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.vsphone.phone.linphoneExtension</string>
+		<string>group.com.vsphone.phone.vsphoneExtension</string>
 		<string>group.virtualsistemas.vsphone.widget</string>
 		<string>group.com.vsphone.phone.msgNotification</string>
 	</array>
