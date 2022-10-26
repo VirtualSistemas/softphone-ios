@@ -92,7 +92,7 @@ static UICompositeViewDescription *compositeDescription = nil;
 #pragma mark - ViewController Functions
 
 - (IBAction)onContactTap {
-	NSString *url = @"https://www.linphone.org/contact";
+	NSString *url = @"https://www.vsphone.com.br/contact";
 	if (![UIApplication.sharedApplication openURL:[NSURL URLWithString:url]]) {
 		LOGE(@"Failed to open %@, invalid URL", url);
 	}
@@ -139,10 +139,10 @@ static UICompositeViewDescription *compositeDescription = nil;
 	NSString *message = NSLocalizedString(@"I accept Belledonne Communications’ terms of use and privacy policy", nil);
 	NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:message attributes:@{NSForegroundColorAttributeName : [UIColor systemGrayColor]}];
 	[attributedString addAttribute:NSLinkAttributeName
-						 value:@"https://www.linphone.org/general-terms"
+						 value:@"https://www.vsphone.com.br/general-terms"
 						 range:[[attributedString string] rangeOfString:NSLocalizedString(@"terms of use", nil)]];
 	[attributedString addAttribute:NSLinkAttributeName
-						 value:@"https://www.linphone.org/privacy-policy"
+						 value:@"https://www.vsphone.com.br/privacy-policy"
 						 range:[[attributedString string] rangeOfString:NSLocalizedString(@"privacy policy", nil)]];
 
 	NSDictionary *linkAttributes = @{NSForegroundColorAttributeName : [UIColor redColor],
@@ -1649,7 +1649,7 @@ UIColor *previousColor = (UIColor*)[sender backgroundColor]; \
 	}
 
 	if (uri) {
-		_accountLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Your SIP address will be sip:%s@sip.linphone.org", nil), uri];
+		_accountLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Your SIP address will be sip:%s@sip.vsphone.com.br", nil), uri];
 	} else if (!username.superview.hidden) {
 		_accountLabel.text = NSLocalizedString(@"Please enter your username", nil);
 	} else {
@@ -1770,7 +1770,7 @@ UIColor *previousColor = (UIColor*)[sender backgroundColor]; \
 	}
 
 - (IBAction)onLinkTap:(id)sender {
-	NSString *url = @"https://subscribe.linphone.org";
+	NSString *url = @"https://subscribe.vsphone.com.br";
 	if (![UIApplication.sharedApplication openURL:[NSURL URLWithString:url]]) {
 		LOGE(@"Failed to open %@, invalid URL", url);
 	}

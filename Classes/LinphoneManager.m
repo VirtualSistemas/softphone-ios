@@ -316,10 +316,10 @@ struct codec_name_pref_table codec_pref_table[] = {{"speex", 8000, "speex_8k_pre
 - (void)migrationAllPre {
 	// migrate xmlrpc URL if needed
 	if ([self lpConfigBoolForKey:@"migration_xmlrpc"] == NO) {
-		[self lpConfigSetString:@"https://subscribe.linphone.org:444/wizard.php"
+		[self lpConfigSetString:@"https://subscribe.vsphone.com.br:444/wizard.php"
 		 forKey:@"xmlrpc_url"
 		 inSection:@"assistant"];
-		[self lpConfigSetString:@"sip:rls@sip.linphone.org" forKey:@"rls_uri" inSection:@"sip"];
+		[self lpConfigSetString:@"sip:rls@sip.vsphone.com.br" forKey:@"rls_uri" inSection:@"sip"];
 		[self lpConfigSetBool:YES forKey:@"migration_xmlrpc"];
 	}
 	[self lpConfigSetBool:NO forKey:@"store_friends" inSection:@"misc"]; //so far, storing friends in files is not needed. may change in the future.
@@ -384,7 +384,7 @@ static int check_should_migrate_images(void *data, int argc, char **argv, char *
 			if (addr &&
 			    strstr(addr, [LinphoneManager.instance lpConfigStringForKey:@"domain_name"
 					  inSection:@"app"
-					  withDefault:@"sip.linphone.org"]
+					  withDefault:@"sip.vsphone.com.br"]
 				   .UTF8String) != 0) {
 				LOGI(@"Migrating proxy config to use AVPF");
 				linphone_account_params_set_avpf_mode(newAccountParams, LinphoneAVPFEnabled);
@@ -407,12 +407,12 @@ static int check_should_migrate_images(void *data, int argc, char **argv, char *
 			if (addr &&
 			    strstr(addr, [LinphoneManager.instance lpConfigStringForKey:@"domain_name"
 					  inSection:@"app"
-					  withDefault:@"sip.linphone.org"]
+					  withDefault:@"sip.vsphone.com.br"]
 				   .UTF8String) != 0) {
 				LOGI(@"Migrating proxy config to send quality report");
 				
 				linphone_account_params_set_quality_reporting_collector(
-										      newAccountParams, "sip:voip-metrics@sip.linphone.org;transport=tls");
+										      newAccountParams, "sip:voip-metrics@sip.vsphone.com.br;transport=tls");
 				linphone_account_params_set_quality_reporting_interval(newAccountParams, 180);
 				linphone_account_params_set_quality_reporting_enabled(newAccountParams, TRUE);
 				linphone_account_set_params(account, newAccountParams);
@@ -424,7 +424,7 @@ static int check_should_migrate_images(void *data, int argc, char **argv, char *
 	}
 	/* File transfer migration */
 	if ([self lpConfigBoolForKey:@"file_transfer_migration_done"] == FALSE) {
-		const char *newURL = "https://www.linphone.org:444/lft.php";
+		const char *newURL = "https://www.vsphone.com.br:444/lft.php";
 		LOGI(@"Migrating sharing server url from %s to %s", linphone_core_get_file_transfer_server(LC), newURL);
 		linphone_core_set_file_transfer_server(LC, newURL);
 		[self lpConfigSetBool:TRUE forKey:@"file_transfer_migration_done"];
@@ -434,7 +434,7 @@ static int check_should_migrate_images(void *data, int argc, char **argv, char *
 		const MSList *accounts = linphone_core_get_account_list(theLinphoneCore);
 		while (accounts)
 		{
-			if (!strcmp(linphone_account_params_get_domain(linphone_account_get_params((LinphoneAccount *)accounts->data)),"sip.linphone.org")) {
+			if (!strcmp(linphone_account_params_get_domain(linphone_account_get_params((LinphoneAccount *)accounts->data)),"sip.vsphone.com.br")) {
 				linphone_core_set_lime_x3dh_server_url(LC, "https://lime.linphone.org/lime-server/lime-server.php");
 				break;
 			}
@@ -470,19 +470,19 @@ static int check_should_migrate_images(void *data, int argc, char **argv, char *
 	const MSList *accounts = linphone_core_get_account_list(theLinphoneCore);
 	NSString *appDomain  = [LinphoneManager.instance lpConfigStringForKey:@"domain_name"
 				inSection:@"app"
-				withDefault:@"sip.linphone.org"];
+				withDefault:@"sip.vsphone.com.br"];
 	   while (accounts) {
 		   LinphoneAccount *account = accounts->data;
 		   LinphoneAccountParams *newAccountParams = linphone_account_params_clone(linphone_account_get_params(account));
 		   // can not create group chat without conference factory
 		   if (!linphone_account_params_get_conference_factory_uri(newAccountParams)) {
 			   if (strcmp(appDomain.UTF8String, linphone_account_params_get_domain(newAccountParams)) == 0) {
-				   linphone_account_params_set_conference_factory_uri(newAccountParams, "sip:conference-factory@sip.linphone.org");
+				   linphone_account_params_set_conference_factory_uri(newAccountParams, "sip:conference-factory@sip.vsphone.com.br");
 				   linphone_account_set_params(account, newAccountParams);
 			   }
 		   }
 		   if (!linphone_account_params_get_audio_video_conference_factory_address(newAccountParams) && strcmp(appDomain.UTF8String, linphone_account_params_get_domain(newAccountParams)) == 0) {
-			   NSString *uri = [self lpConfigStringForKey:@"default_audio_video_conference_factory_uri" withDefault:@"sip:videoconference-factory2@sip.linphone.org"];
+			   NSString *uri = [self lpConfigStringForKey:@"default_audio_video_conference_factory_uri" withDefault:@"sip:videoconference-factory2@sip.vsphone.com.br"];
 			   LinphoneAddress *a = linphone_factory_create_address(linphone_factory_get(), uri.UTF8String);
 			   if (a) {
 				   linphone_account_params_set_audio_video_conference_factory_address(newAccountParams, a);
@@ -1269,7 +1269,7 @@ void popup_link_account_cb(LinphoneAccountCreator *creator, LinphoneAccountCreat
 		    strcmp(linphone_account_params_get_domain(accountParams),
 			   [LinphoneManager.instance lpConfigStringForKey:@"domain_name"
 			    inSection:@"app"
-			    withDefault:@"sip.linphone.org"]
+			    withDefault:@"sip.vsphone.com.br"]
 			   .UTF8String) == 0) {
 			UIAlertController *errView = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Link your account", nil)
 						      message:[NSString stringWithFormat:NSLocalizedString(@"Link your Linphone.org account %s to your phone number.", nil),
@@ -1351,7 +1351,7 @@ void popup_link_account_cb(LinphoneAccountCreator *creator, LinphoneAccountCreat
 		LinphoneAccountParams const * currentParams = linphone_account_get_params(account);
 		LinphoneAddress const * currentAddress = linphone_account_params_get_identity_address(currentParams);
 		
-		if (strcmp(linphone_address_get_domain(currentAddress), "sip.linphone.org") == 0 && !linphone_account_params_cpim_in_basic_chat_room_enabled(currentParams) ) {
+		if (strcmp(linphone_address_get_domain(currentAddress), "sip.vsphone.com.br") == 0 && !linphone_account_params_cpim_in_basic_chat_room_enabled(currentParams) ) {
 			
 			LOGI(@"Enabling CPIM in basic chatroom for user %s", linphone_address_get_username(currentAddress));
 			LinphoneAccountParams * newParams = linphone_account_params_clone(linphone_account_get_params(account));

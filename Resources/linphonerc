@@ -28,7 +28,7 @@ enabled=0
 paid_account_id=sipAccount_12m
 
 #the url of the inapp/account management server, for submitting the receipt and validating the account.
-receipt_validation_url=https://subscribe.linphone.org:444/inapp.php
+receipt_validation_url=https://subscribe.vsphone.com.br:444/inapp.php
 
 #for future use, to specify the full list of paying services to show in the shop view
 products_list=sipAccount_12m,sipAccount_6m
@@ -49,7 +49,7 @@ save_tmp_receipt=0
 reg_expires=1314000
 
 [misc]
-file_transfer_server_url=https://www.linphone.org:444/lft.php
+file_transfer_server_url=https://www.vsphone.com.br:444/lft.php
 real_early_media=1
 prefer_basic_chat_room=-1
 conference_layout=1
@@ -59,7 +59,7 @@ edge_bw=10
 edge_ping_time=10
 firewall_policy=ice
 mtu=1300
-stun_server=stun.linphone.org
+stun_server=stun.vsphone.com.br
 
 [rtp]
 audio_jitt_comp=60

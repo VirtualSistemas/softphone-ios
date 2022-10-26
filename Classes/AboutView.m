@@ -85,7 +85,7 @@ static UICompositeViewDescription *compositeDescription = nil;
 }
 
 - (IBAction)onPolicyTap {
-	NSString *url = @"https://www.linphone.org/privacy-policy";
+	NSString *url = @"https://www.vsphone.com.br/privacy-policy";
 	if (![UIApplication.sharedApplication openURL:[NSURL URLWithString:url]]) {
 		LOGE(@"Failed to open %@, invalid URL", url);
 	}
@@ -98,7 +98,7 @@ static UICompositeViewDescription *compositeDescription = nil;
 	}
 }
 - (IBAction)onTranslateTap {
-	NSString *url = @"https://weblate.linphone.org/projects/linphone-iphone";
+	NSString *url = @"https://weblate.vsphone.com.br/projects/linphone-iphone";
 	if (![UIApplication.sharedApplication openURL:[NSURL URLWithString:url]]) {
 		LOGE(@"Failed to open %@, invalid URL", url);
 	}
