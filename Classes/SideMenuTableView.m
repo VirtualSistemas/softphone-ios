@@ -65,7 +65,8 @@
 												[PhoneMainView.instance
 													changeCurrentView:AssistantView.compositeViewDescription];
 											  }]];
-	BOOL mustLink = ([LinphoneManager.instance lpConfigIntForKey:@"must_link_account_time"] > 0);
+	//BOOL mustLink = ([LinphoneManager.instance lpConfigIntForKey:@"must_link_account_time"] > 0);
+    BOOL mustLink = false;
 	BOOL hasAccount = linphone_core_get_account_list(LC) != NULL;
 	if (mustLink && hasAccount) {
 		[_sideMenuEntries

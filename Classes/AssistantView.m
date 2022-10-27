@@ -737,7 +737,7 @@ static UICompositeViewDescription *compositeDescription = nil;
 #if DEBUG
 		UIAssistantTextField *atf =
 			(UIAssistantTextField *)[self findView:ViewElement_Domain inView:view ofType:UIAssistantTextField.class];
-		atf.text = @"test.linphone.org";
+		atf.text = @"sip.vsphone.com.br";
 #endif
 	}
 	phone_number_length = 0;
@@ -960,11 +960,11 @@ static UICompositeViewDescription *compositeDescription = nil;
 		case LinphoneRegistrationOk: {
 			_waitView.hidden = true;
 
-			[LinphoneManager.instance
-				lpConfigSetInt:[NSDate new].timeIntervalSince1970 +
-							   [LinphoneManager.instance lpConfigIntForKey:@"link_account_popup_time" withDefault:84200]
-						forKey:@"must_link_account_time"];
-			[PhoneMainView.instance popToView:_outgoingView];
+			//[LinphoneManager.instance
+			//	lpConfigSetInt:[NSDate new].timeIntervalSince1970 +
+			//				   [LinphoneManager.instance lpConfigIntForKey:@"link_account_popup_time" withDefault:84200]
+			//			forKey:@"must_link_account_time"];
+			//[PhoneMainView.instance popToView:_outgoingView];
 			break;
 		}
 		case LinphoneRegistrationNone:
@@ -1008,8 +1008,8 @@ static UICompositeViewDescription *compositeDescription = nil;
 	switch (status) {
 		case LinphoneConfiguringSuccessful:
 			// we successfully loaded a remote provisioned config, go to dialer
-			[LinphoneManager.instance lpConfigSetInt:[NSDate new].timeIntervalSince1970
-											  forKey:@"must_link_account_time"];
+			//[LinphoneManager.instance lpConfigSetInt:[NSDate new].timeIntervalSince1970
+			//								  forKey:@"must_link_account_time"];
 			[LinphoneManager.instance configurePushProviderForAccounts];
 			if (number_of_accounts_before < bctbx_list_size(linphone_core_get_account_list(LC))) {
 				LOGI(@"A proxy config was set up with the remote provisioning, skip assistant");
@@ -1301,13 +1301,13 @@ void assistant_is_account_linked(LinphoneAccountCreator *creator, LinphoneAccoun
 									const char *resp) {
 	AssistantView *thiz = (__bridge AssistantView *)(linphone_account_creator_get_user_data(creator));
 	thiz.waitView.hidden = YES;
-	if (status == LinphoneAccountCreatorStatusAccountLinked) {
-		[LinphoneManager.instance lpConfigSetInt:0 forKey:@"must_link_account_time"];
-	} else if (status == LinphoneAccountCreatorStatusAccountNotLinked) {
-		[LinphoneManager.instance lpConfigSetInt:[NSDate new].timeIntervalSince1970 forKey:@"must_link_account_time"];
-	} else {
-		[thiz showErrorPopup:resp];
-	}
+	//if (status == LinphoneAccountCreatorStatusAccountLinked) {
+	//	[LinphoneManager.instance lpConfigSetInt:0 forKey:@"must_link_account_time"];
+	//} else if (status == LinphoneAccountCreatorStatusAccountNotLinked) {
+	//	[LinphoneManager.instance lpConfigSetInt:[NSDate new].timeIntervalSince1970 forKey:@"must_link_account_time"];
+	//} else {
+	//	[thiz showErrorPopup:resp];
+	//}
 }
 
 #pragma mark - UITextFieldDelegate Functions

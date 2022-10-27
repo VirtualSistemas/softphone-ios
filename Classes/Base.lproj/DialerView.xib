@@ -46,7 +46,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="540" height="66"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <textField opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter a number or an address" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="4" userLabel="addressField" customClass="UIAddressTextField">
+                                <textField opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Digite o número" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="4" userLabel="addressField" customClass="UIAddressTextField">
                                     <rect key="frame" x="31" y="0.0" width="426" height="66"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -278,7 +278,7 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     <accessibility key="accessibilityConfiguration" label="Call"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                    <state key="normal" image="call_audio_start_default.png" backgroundImage="color_A.png">
+                                    <state key="normal" image="call_audio_start_default.png" backgroundImage="color_V.png">
                                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <state key="disabled" image="call_audio_start_disabled.png"/>
@@ -308,10 +308,10 @@
         <image name="call_alt_back_disabled.png" width="81.599998474121094" height="58.400001525878906"/>
         <image name="call_audio_start_default.png" width="58.400001525878906" height="58.400001525878906"/>
         <image name="call_audio_start_disabled.png" width="58.400001525878906" height="58.400001525878906"/>
-        <image name="color_A.png" width="2" height="2"/>
         <image name="color_E.png" width="2" height="2"/>
         <image name="color_F.png" width="2" height="2"/>
         <image name="color_L.png" width="2" height="2"/>
+        <image name="color_V.png" width="2" height="2"/>
         <image name="contact_add_default.png" width="55.200000762939453" height="47.200000762939453"/>
         <image name="contact_add_disabled.png" width="55.200000762939453" height="47.200000762939453"/>
         <image name="dialer_background.png" width="1200" height="1030"/>

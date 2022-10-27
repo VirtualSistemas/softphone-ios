@@ -435,7 +435,7 @@ static int check_should_migrate_images(void *data, int argc, char **argv, char *
 		while (accounts)
 		{
 			if (!strcmp(linphone_account_params_get_domain(linphone_account_get_params((LinphoneAccount *)accounts->data)),"sip.vsphone.com.br")) {
-				linphone_core_set_lime_x3dh_server_url(LC, "https://lime.linphone.org/lime-server/lime-server.php");
+				linphone_core_set_lime_x3dh_server_url(LC, "https://lime.vsphone.com.br/lime-server/lime-server.php");
 				break;
 			}
 			accounts = accounts->next;
@@ -1272,7 +1272,7 @@ void popup_link_account_cb(LinphoneAccountCreator *creator, LinphoneAccountCreat
 			    withDefault:@"sip.vsphone.com.br"]
 			   .UTF8String) == 0) {
 			UIAlertController *errView = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Link your account", nil)
-						      message:[NSString stringWithFormat:NSLocalizedString(@"Link your Linphone.org account %s to your phone number.", nil),
+						      message:[NSString stringWithFormat:NSLocalizedString(@"Link your VSPhone account %s to your phone number.", nil),
 							       linphone_address_get_username(linphone_account_params_get_identity_address(accountParams))]
 						      preferredStyle:UIAlertControllerStyleAlert];
 
@@ -1313,8 +1313,8 @@ void popup_link_account_cb(LinphoneAccountCreator *creator, LinphoneAccountCreat
 											       [LinphoneManager.instance lpConfigStringForKey:@"xmlrpc_url" inSection:@"assistant" withDefault:@""]
 											       .UTF8String);
 			linphone_account_creator_set_user_data(account_creator, (__bridge void *)(self));
-			linphone_account_creator_cbs_set_is_account_linked(linphone_account_creator_get_callbacks(account_creator),
-									   popup_link_account_cb);
+			//linphone_account_creator_cbs_set_is_account_linked(linphone_account_creator_get_callbacks(account_creator),
+			//						   popup_link_account_cb);
 			linphone_account_creator_set_username(account_creator, username);
 			linphone_account_creator_is_account_linked(account_creator);
 		}

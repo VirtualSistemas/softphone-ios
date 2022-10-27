@@ -214,7 +214,7 @@ void assistant_activate_phone_number_link(LinphoneAccountCreator *creator, Linph
 	AssistantLinkView *thiz = (__bridge AssistantLinkView *)(linphone_account_creator_get_user_data(creator));
 	thiz.waitView.hidden = YES;
 	if (status == LinphoneAccountCreatorStatusAccountActivated) {
-		[LinphoneManager.instance lpConfigSetInt:0 forKey:@"must_link_account_time"];
+		//[LinphoneManager.instance lpConfigSetInt:0 forKey:@"must_link_account_time"];
 		// save country code prefix if none is already entered
 		LinphoneAccount *acc = linphone_core_get_default_account(LC);
 		LinphoneAccountParams const *accParams = linphone_account_get_params(acc);

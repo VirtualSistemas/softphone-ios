@@ -42,7 +42,7 @@
                         </label>
                     </subviews>
                 </view>
-                <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="color_A.png" translatesAutoresizingMaskIntoConstraints="NO" id="P8D-kY-xHP" userLabel="bottomBarImage">
+                <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="color_V.png" translatesAutoresizingMaskIntoConstraints="NO" id="P8D-kY-xHP" userLabel="bottomBarImage">
                     <rect key="frame" x="127" y="656" width="119" height="11"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </imageView>
@@ -54,8 +54,8 @@
         </view>
     </objects>
     <resources>
-        <image name="color_A.png" width="2" height="2"/>
         <image name="color_C.png" width="2" height="2"/>
+        <image name="color_V.png" width="2" height="2"/>
         <image name="splashscreen.png" width="852.79998779296875" height="617.5999755859375"/>
     </resources>
 </document>
